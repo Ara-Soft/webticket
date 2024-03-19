@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.1.1"],\
           ["prettier-plugin-svelte", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.2"],\
           ["svelte", "npm:4.2.8"],\
-          ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2"],\
+          ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.6.8"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vercel", "npm:29.0.3"],\
           ["vite", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:5.0.10"]\
@@ -3900,16 +3900,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@types/sass", [\
-      ["npm:1.43.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-sass-npm-1.43.1-6770eea7c0-10c0.zip/node_modules/@types/sass/",\
-        "packageDependencies": [\
-          ["@types/sass", "npm:1.43.1"],\
-          ["@types/node", "npm:18.11.18"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["@types/scheduler", [\
       ["npm:0.16.3", {\
         "packageLocation": "../../../../cache/others/berry/cache/@types-scheduler-npm-0.16.3-887bfc0086-10c0.zip/node_modules/@types/scheduler/",\
@@ -4497,7 +4487,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.1.1"],\
           ["prettier-plugin-svelte", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.1.2"],\
           ["svelte", "npm:4.2.8"],\
-          ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2"],\
+          ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.6.8"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vercel", "npm:29.0.3"],\
           ["vite", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:5.0.10"]\
@@ -8125,14 +8115,6 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.27.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/magic-string-npm-0.27.0-a60a83c0b4-10c0.zip/node_modules/magic-string/",\
-        "packageDependencies": [\
-          ["magic-string", "npm:0.27.0"],\
-          ["@jridgewell/sourcemap-codec", "npm:1.4.14"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.30.0", {\
         "packageLocation": "../../../../cache/others/berry/cache/magic-string-npm-0.30.0-20d8e0b6e4-10c0.zip/node_modules/magic-string/",\
         "packageDependencies": [\
@@ -8145,6 +8127,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/magic-string-npm-0.30.5-dffb7e6a73-10c0.zip/node_modules/magic-string/",\
         "packageDependencies": [\
           ["magic-string", "npm:0.30.5"],\
+          ["@jridgewell/sourcemap-codec", "npm:1.4.15"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.30.8", {\
+        "packageLocation": "../../../../cache/others/berry/cache/magic-string-npm-0.30.8-0378572eee-10c0.zip/node_modules/magic-string/",\
+        "packageDependencies": [\
+          ["magic-string", "npm:0.30.8"],\
           ["@jridgewell/sourcemap-codec", "npm:1.4.15"]\
         ],\
         "linkType": "HARD"\
@@ -10797,14 +10787,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sorcery", [\
-      ["npm:0.10.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/sorcery-npm-0.10.0-10068608ec-10c0.zip/node_modules/sorcery/",\
+      ["npm:0.11.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/sorcery-npm-0.11.0-b946159f40-10c0.zip/node_modules/sorcery/",\
         "packageDependencies": [\
-          ["sorcery", "npm:0.10.0"],\
+          ["sorcery", "npm:0.11.0"],\
+          ["@jridgewell/sourcemap-codec", "npm:1.4.15"],\
           ["buffer-crc32", "npm:0.2.13"],\
           ["minimist", "npm:1.2.7"],\
-          ["sander", "npm:0.5.1"],\
-          ["sourcemap-codec", "npm:1.4.8"]\
+          ["sander", "npm:0.5.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11096,17 +11086,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["svelte-check", [\
-      ["npm:3.0.2", {\
-        "packageLocation": "../../../../cache/others/berry/cache/svelte-check-npm-3.0.2-2e0b59c019-10c0.zip/node_modules/svelte-check/",\
+      ["npm:3.6.8", {\
+        "packageLocation": "../../../../cache/others/berry/cache/svelte-check-npm-3.6.8-09c2c252ac-10c0.zip/node_modules/svelte-check/",\
         "packageDependencies": [\
-          ["svelte-check", "npm:3.0.2"]\
+          ["svelte-check", "npm:3.6.8"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2", {\
-        "packageLocation": "./.yarn/__virtual__/svelte-check-virtual-288a88ec87/5/cache/others/berry/cache/svelte-check-npm-3.0.2-2e0b59c019-10c0.zip/node_modules/svelte-check/",\
+      ["virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.6.8", {\
+        "packageLocation": "./.yarn/__virtual__/svelte-check-virtual-903372dcbc/5/cache/others/berry/cache/svelte-check-npm-3.6.8-09c2c252ac-10c0.zip/node_modules/svelte-check/",\
         "packageDependencies": [\
-          ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.0.2"],\
+          ["svelte-check", "virtual:9d4d59a615cf16c922b26b845fb7a66369a8d304a1932f4abe645076aa04d84a997316105463787407b463a552f98f1946c3df5d72da59d32bd60ab4b968238b#npm:3.6.8"],\
           ["@jridgewell/trace-mapping", "npm:0.3.17"],\
           ["@types/svelte", null],\
           ["chokidar", "npm:3.5.3"],\
@@ -11115,8 +11105,8 @@ const RAW_RUNTIME_STATE =
           ["picocolors", "npm:1.0.0"],\
           ["sade", "npm:1.8.1"],\
           ["svelte", "npm:4.2.8"],\
-          ["svelte-preprocess", "virtual:288a88ec870327d2346f676c7cfa87c708fd5039cfe5a5123abfd3c9345fdb0135dc17a3bd03b501964401388147c1915e0bcdcdfec60aa86a93539c99fc9370#npm:5.0.0"],\
-          ["typescript", "patch:typescript@npm%3A4.9.4#optional!builtin<compat/typescript>::version=4.9.4&hash=289587"]\
+          ["svelte-preprocess", "virtual:903372dcbc0184aa8ad32cdd3d41f72de0fc8aa9a3cb5fb58335d2847ceb06cb5d4dd9e5db0a6ffaa6fb1ab1f3e23fc4cf233ffce89301f1b701e3b5c8982c69#npm:5.1.3"],\
+          ["typescript", "patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=e012d7"]\
         ],\
         "packagePeers": [\
           "@types/svelte",\
@@ -11148,17 +11138,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["svelte-preprocess", [\
-      ["npm:5.0.0", {\
-        "packageLocation": "./.yarn/unplugged/svelte-preprocess-virtual-4bdf65307c/node_modules/svelte-preprocess/",\
+      ["npm:5.1.3", {\
+        "packageLocation": "./.yarn/unplugged/svelte-preprocess-virtual-3112c0f4d4/node_modules/svelte-preprocess/",\
         "packageDependencies": [\
-          ["svelte-preprocess", "npm:5.0.0"]\
+          ["svelte-preprocess", "npm:5.1.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:288a88ec870327d2346f676c7cfa87c708fd5039cfe5a5123abfd3c9345fdb0135dc17a3bd03b501964401388147c1915e0bcdcdfec60aa86a93539c99fc9370#npm:5.0.0", {\
-        "packageLocation": "./.yarn/unplugged/svelte-preprocess-virtual-4bdf65307c/node_modules/svelte-preprocess/",\
+      ["virtual:903372dcbc0184aa8ad32cdd3d41f72de0fc8aa9a3cb5fb58335d2847ceb06cb5d4dd9e5db0a6ffaa6fb1ab1f3e23fc4cf233ffce89301f1b701e3b5c8982c69#npm:5.1.3", {\
+        "packageLocation": "./.yarn/unplugged/svelte-preprocess-virtual-3112c0f4d4/node_modules/svelte-preprocess/",\
         "packageDependencies": [\
-          ["svelte-preprocess", "virtual:288a88ec870327d2346f676c7cfa87c708fd5039cfe5a5123abfd3c9345fdb0135dc17a3bd03b501964401388147c1915e0bcdcdfec60aa86a93539c99fc9370#npm:5.0.0"],\
+          ["svelte-preprocess", "virtual:903372dcbc0184aa8ad32cdd3d41f72de0fc8aa9a3cb5fb58335d2847ceb06cb5d4dd9e5db0a6ffaa6fb1ab1f3e23fc4cf233ffce89301f1b701e3b5c8982c69#npm:5.1.3"],\
           ["@babel/core", null],\
           ["@types/babel__core", null],\
           ["@types/coffeescript", null],\
@@ -11166,7 +11156,7 @@ const RAW_RUNTIME_STATE =
           ["@types/postcss", null],\
           ["@types/postcss-load-config", null],\
           ["@types/pug", "npm:2.0.6"],\
-          ["@types/sass", "npm:1.43.1"],\
+          ["@types/sass", null],\
           ["@types/stylus", null],\
           ["@types/sugarss", null],\
           ["@types/svelte", null],\
@@ -11174,17 +11164,17 @@ const RAW_RUNTIME_STATE =
           ["coffeescript", null],\
           ["detect-indent", "npm:6.1.0"],\
           ["less", null],\
-          ["magic-string", "npm:0.27.0"],\
+          ["magic-string", "npm:0.30.8"],\
           ["postcss", null],\
           ["postcss-load-config", null],\
           ["pug", null],\
           ["sass", null],\
-          ["sorcery", "npm:0.10.0"],\
+          ["sorcery", "npm:0.11.0"],\
           ["strip-indent", "npm:3.0.0"],\
           ["stylus", null],\
           ["sugarss", null],\
           ["svelte", "npm:4.2.8"],\
-          ["typescript", "patch:typescript@npm%3A4.9.4#optional!builtin<compat/typescript>::version=4.9.4&hash=289587"]\
+          ["typescript", "patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=e012d7"]\
         ],\
         "packagePeers": [\
           "@babel/core",\
@@ -11193,6 +11183,7 @@ const RAW_RUNTIME_STATE =
           "@types/less",\
           "@types/postcss-load-config",\
           "@types/postcss",\
+          "@types/sass",\
           "@types/stylus",\
           "@types/sugarss",\
           "@types/svelte",\
@@ -11509,13 +11500,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A4.9.4#optional!builtin<compat/typescript>::version=4.9.4&hash=289587", {\
-        "packageLocation": "../../../../cache/others/berry/cache/typescript-patch-2cdf849ef5-10c0.zip/node_modules/typescript/",\
-        "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A4.9.4#optional!builtin<compat/typescript>::version=4.9.4&hash=289587"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587", {\
         "packageLocation": "../../../../cache/others/berry/cache/typescript-patch-32ada147aa-10c0.zip/node_modules/typescript/",\
         "packageDependencies": [\
@@ -11527,6 +11511,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/typescript-patch-4778c7998b-10c0.zip/node_modules/typescript/",\
         "packageDependencies": [\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=e012d7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/typescript-patch-1986a179e5-10c0.zip/node_modules/typescript/",\
+        "packageDependencies": [\
+          ["typescript", "patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=e012d7"]\
         ],\
         "linkType": "HARD"\
       }]\
